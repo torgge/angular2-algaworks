@@ -7,5 +7,5 @@ import {Component, Input} from '@angular/core';
 })
 export class FuncionarioCardComponent {
 
-  @Input() funcionario: any;
+  @Input('objFuncionario') funcionario: any;
 }
